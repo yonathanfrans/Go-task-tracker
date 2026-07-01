@@ -23,13 +23,20 @@ A simple Command Line Interface (CLI) application built with Go to manage daily 
 ## Project Structure
 
 ```text
-task-tracker/
-│── model/
-│── service/
-│── storage/
-│── main.go
-│── go.mod
-│── README.md
+expense-tracker/
+│
+├── model/
+│   └── task.go
+│
+├── service/
+│   └── task_service.go
+│
+├── storage/
+│   └── json_storage.go
+│
+├── main.go
+├── go.mod
+└── README.md
 ```
 
 ## Getting Started
